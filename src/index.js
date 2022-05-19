@@ -13,7 +13,8 @@ WidgetDivs.forEach(Div => {
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  Div
 );
 })
 
