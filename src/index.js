@@ -8,13 +8,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const WidgetDivs = document.querySelectorAll('.content-widget')
+const WidgetDivs = document.querySelectorAll('.widgets')
 
 WidgetDivs.forEach(Div => {
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>, Div
 );
 })
 
